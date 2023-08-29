@@ -1,4 +1,4 @@
-Live demo:
+Live demo:  https://uniquestore-lucky.netlify.app/
 
 Use same 'userName' and 'paddword' for login...
 
