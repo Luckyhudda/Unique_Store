@@ -1,5 +1,5 @@
 .contentDiv {
-  background-image: url(../../assets/contect2.jpg);
+  background-image: url(../../assets/contact2.jpg);
   height: 96px;
   filter: contrast(0.8);
 }
@@ -11,7 +11,7 @@
   align-items: center;
   background: #646464ba;
 }
-.contectHeading {
+.contactHeading {
   font-weight: bold;
   color: rgb(4, 76, 25);
   font-size: 2rem;
@@ -20,7 +20,7 @@
   filter: brightness(6);
 }
 
-.contectPara {
+.contactPara {
   color: rgb(255, 255, 255);
   font-size: 18px;
   filter: brightness(11);

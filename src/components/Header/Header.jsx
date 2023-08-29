@@ -66,7 +66,7 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contect" className={linkStyle()}>
+            <NavLink to="/contact" className={linkStyle()}>
               Contact us
             </NavLink>
           </li>
@@ -140,7 +140,7 @@ const Header = () => {
           <li>
             <NavLink
               onClick={() => setIsHidden(true)}
-              to="/contect"
+              to="/contact"
               className={linkStyle()}
             >
               Contact us

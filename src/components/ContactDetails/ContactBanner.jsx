@@ -1,12 +1,12 @@
 import styles from "./ContactSection.module.css";
 const ContactBanner = () => {
   return (
-    <section className={styles.contectHeader}>
+    <section className={styles.contactHeader}>
       <div className="container-xxl">
         <div className={`${styles.contentDiv} row`}>
           <div className={`${styles.data} col-12`}>
-            <h2 className={styles.contectHeading}>#Contact Us</h2>
-            <p className={styles.contectPara}>
+            <h2 className={styles.contactHeading}>#Contact Us</h2>
+            <p className={styles.contactPara}>
               <span className={styles.hiBox}>Hi,</span>let us know how we can
               help!
             </p>

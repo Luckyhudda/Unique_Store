@@ -20,7 +20,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="/product" element={<Products />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contect" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/success-message" element={<SuccessMessage />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/cart" element={<CartPage />} />

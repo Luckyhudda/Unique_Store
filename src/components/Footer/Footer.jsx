@@ -10,7 +10,7 @@ const Footer = () => {
           <div
             className={` col-xl-3 col-md-4 col-sm-5 border-bottom border-secondary pb-4 m-md-3`}
           >
-            <h3>Contect us</h3>
+            <h3>contact us</h3>
             <div className="details">
               <p>
                 <b>Address: </b>La Mirada , California(CA), 90638

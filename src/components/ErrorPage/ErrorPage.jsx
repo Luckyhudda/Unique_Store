@@ -15,7 +15,7 @@ const ErrorPage = () => {
             <h2 className={styles.notFound}>Page not found.</h2>
             <p className={styles.mailus}>
               if you think page should exist, email{" "}
-              <Link to={"Contect"}>unique@store.in</Link>
+              <Link to={"contact"}>unique@store.in</Link>
             </p>
             <button className={styles.errorbtn} onClick={() => navigate("/")}>
               Go to Home Page
