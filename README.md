@@ -1,8 +1,5 @@
-# React + Vite
+#e-Commerce Website  'Unique Store'
+Live demo: 
+Use same 'userName' and 'paddword' for login...
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![eComSS](https://github.com/Luckyhudda/Unique_Store/assets/113304073/00947a9b-7d72-4e94-b3b9-f575d6aca3cf)
