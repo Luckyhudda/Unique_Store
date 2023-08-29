@@ -10,9 +10,11 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CartContext } from "../../context/CartContext";
 import { useContext } from "react";
 import { useState } from "react";
+import { AuthContext } from "../../context/AuthContext";
 const Header = () => {
   const [isHidden, setIsHidden] = useState(true);
   const { cartList } = useContext(CartContext);
+  const { userName, isLogin } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const linkStyle = () => {
@@ -82,6 +84,7 @@ const Header = () => {
           className={styles.profileBox}
         >
           <VscAccount size={"1.4rem"} cursor={"pointer"} />
+          <div>{isLogin ? userName : "Login ↗"}</div>
         </div>
         <div
           onClick={() => {
@@ -95,11 +98,11 @@ const Header = () => {
               style={{ cursor: "pointer" }}
               size="1.6rem"
             />
+
             {cartList.length > 0 && (
               <div className={styles.cartCount}>{cartList.length}</div>
             )}
           </div>
-          <div>Cart</div>
         </div>
       </div>
       <div className={styles.menuBtn} onClick={togglemenuHandler}>
