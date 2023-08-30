@@ -33,7 +33,7 @@ const Cart = () => {
 
   const ConfirmDeliveryHandler = () => {
     if (isLogin) {
-      navigate("/reqRecive");
+      navigate("/address");
     } else {
       navigate("/login");
     }

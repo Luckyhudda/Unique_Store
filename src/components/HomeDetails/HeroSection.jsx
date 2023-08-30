@@ -26,7 +26,6 @@ const HeroSection = () => {
       setIsLoading(false);
     });
   }, []);
-  console.log(products);
 
   const productCatds = products?.products.map((data, index) => {
     return (

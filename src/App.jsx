@@ -11,6 +11,7 @@ import ProductDetail from "./pages/ProductDetail";
 import CartPage from "./pages/cartPage";
 import LoginPage from "./pages/LoginPage";
 import ReqConfirm from "./pages/ReqConfirm";
+import FillAddress from "./pages/FillAddress";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/reqRecive" element={<ReqConfirm />} />
+        <Route path="/address" element={<FillAddress/>} />
       </Route>
     </Routes>
   );

@@ -29,7 +29,6 @@ const ProductDetailsPage = () => {
        setSelectedImage(details.thumbnail);
     });
   }, [id]);
-  console.log(product);
 
   const { AddItem} = useContext(CartContext);
 

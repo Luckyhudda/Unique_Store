@@ -33,7 +33,6 @@ const Header = () => {
       setIsHidden(true);
     }
   };
-  console.log(isHidden);
 
   return (
     <header className={styles.header}>
@@ -84,7 +83,7 @@ const Header = () => {
           className={styles.profileBox}
         >
           <VscAccount size={"1.4rem"} cursor={"pointer"} />
-          <div>{isLogin ? userName : "Login ↗"}</div>
+          <div>{isLogin ? userName : "Login"}</div>
         </div>
         <div
           onClick={() => {

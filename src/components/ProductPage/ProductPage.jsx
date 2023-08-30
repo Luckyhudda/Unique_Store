@@ -24,7 +24,6 @@ const ProductPage = () => {
       setIsLoading(false);
     });
   }, []);
-  console.log(allproducts);
 
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
@@ -107,7 +106,6 @@ const ProductPage = () => {
     setIsLoading(true);
     ProductByCategory(category).then((list) => {
       setAllProducts(list.products);
-      console.log(list);
       setIsLoading(false);
     });
      setActiveCategory(category);

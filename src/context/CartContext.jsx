@@ -15,7 +15,6 @@ const CartProvider = ({ children }) => {
       setCartList(storedCart);
     }
   }, []);
-  console.log(cartList);
 
   const updateCartItemQuantity = (itemId, newQuantity) => {
     const updatedCartList = cartList.map((product) => {
@@ -58,7 +57,6 @@ const CartProvider = ({ children }) => {
     }
   };
 
-  console.log(cartList);
   return (
     <CartContext.Provider
       value={{
